@@ -1,0 +1,3 @@
+<p>
+  Hello {{data.name}}, welcome to our app {{data.app}}.
+</p>
