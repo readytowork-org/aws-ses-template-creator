@@ -6,7 +6,7 @@ Repository for creating templated email in AWS SES using aws-sdk v3
 
 - Create `.env` in the root directory taking `.env.example` as reference.
 - Install dependencies using `yarn install` or `npm install` command.
-- Create your email template in `/templates` folder in `.txt` format
+- Create your email template in `/templates` folder in `.txt` format. Use `-` or `_` instead of white space.
 - Enclose variables with `{{}}` i.e `{{data.name}}` will be replaced by your value
 
 ## Routes
